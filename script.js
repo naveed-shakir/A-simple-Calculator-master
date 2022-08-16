@@ -60,7 +60,7 @@ for (var i = 0; i < operator.length; i++) {
 		else if(this.id=="%"){				
 			   
 			valOne=getOutput()
-			console.log('is id %', valOne)
+			
 			printHistory(valOne + '%')
 			valOne = valOne/100
 			printOutput('')
@@ -104,7 +104,7 @@ for (var i = 0; i < operator.length; i++) {
 				}
 				
 				if (this.id == "=") 
-				{
+				{debugger
 					if(isPercentage){
 						var valTwo = getOutput()
 						printHistory(history)
