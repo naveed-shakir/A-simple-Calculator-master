@@ -1,0 +1,125 @@
+body{
+	font-family: 'Open Sans',sans-serif;
+	background-color: white;
+}
+#container{
+	width: 640px;
+	height: 450px;
+	margin: auto;	
+}
+#container h2{
+	text-align: center;
+	margin: 0px;
+	font-size: 40PX;
+	font-weight:bold;
+}
+.number:hover{
+     background-color: #d7dddf;
+	 box-shadow: 0 0px 8px 0 rgb(0 0 0 / 25%), 0 4px 10px 0 rgb(0 0 0 / 19%);
+}
+.number-.number-dot{
+	background-color: #d7dddf;
+	box-shadow: 0 0px 8px 0 rgb(0 0 0 / 25%), 0 4px 10px 0 rgb(0 0 0 / 19%);
+}
+#calculator{
+	width: 320px;
+	height: 402px;
+	background-color: #eaedef;
+	
+}
+#histury{
+	width: 320px;
+	height: 402px;
+	background-color: #eaedef;
+}
+.main{
+	display: flex;
+	justify-content: center;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#result{
+	height: 120px;
+}
+#history{
+	text-align: right;
+	height: 20px;
+	margin: 0 20px;
+	padding-top: 20px;
+	font-size: 15px;
+	color: #919191;
+}
+#historydata{
+	width: 320px;
+	height: 298px;
+	text-align: end;
+	margin-right: 55px;
+	overflow-x: hidden;
+	overflow-y: scroll; 
+}
+.butt{
+	display: flex;
+    justify-content: flex-end;
+}
+button{
+	margin-top: 10px;
+	margin-right: 5px;
+	width: 60px;
+	height: 30px;
+}
+#output{
+	text-align: right;
+	height: 60px;
+	margin: 10px 20px;
+	font-size: 30px;
+}
+#history-show{
+	padding-right: 5px;
+}
+#delete{
+	margin-top: 15px;
+    margin-right: 5px;
+	width: 60px;
+	height: 30px;
+}
+.operator{
+	background-color: #d7dddf;
+}
+.operator i{
+	font-size: 19px;
+}
+.operator, .number, .empty{
+	width: 74px;
+	height: 50px;
+	margin: 3px;
+	float: left;
+	border-width: 0;
+	font-weight: bold;
+	font-size: 15px;
+}
+.name{
+	margin-left: 10px;
+}
+.sq:active{
+	font-size: 13px;
+}
+
+.number, .empty{
+	background-color: #ffffff;
+}
+.number, .operator{
+	cursor: pointer;
+}
+.operator i:active{
+	font-size: 13px;
+}
+.operator:active, .number:active{
+	font-size: 13px;
+}
+.operator:focus, .number:focus, .empty:focus{
+	outline: 10;
+}
+.operator i:focus{
+	outline: 10;
+}
+
+
